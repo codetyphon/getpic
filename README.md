@@ -2,18 +2,18 @@
 
 >获取一个url页面内所有链接的所有图片
 
-###安装
+### 安装
 
 ```
 npm install getpic
 ```
-###使用方法
+### 使用方法
 >建立一个images文件夹用来保存图片。
 
 >建立一个测试文 件test.js 内容如下：
 
 ```
-var getimg=require('./index.js');
+var getimg=require('getpic');
 var url = process.argv[2];
 var path = process.argv[3];
 path= path || 'images';
