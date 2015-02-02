@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\js\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\js\\AppData\\Roaming\\npm-cache\\getpic\\0.0.1\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package.tgz
+13 verbose folder .
+14 info prepublish getpic@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\js\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 74a3fdb5-m-cache-getpic-0-0-1-package-tgz tar://C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package.tgz
+18 verbose lock tar://C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package.tgz C:\Users\js\AppData\Roaming\npm-cache\74a3fdb5-m-cache-getpic-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 74a3fdb5-m-cache-getpic-0-0-1-package-tgz tar://C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package.tgz
+22 silly lockFile 74a3fdb5-m-cache-getpic-0-0-1-package-tgz tar://C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package.tgz
+23 silly lockFile 1ea39439-g-npm-cache-getpic-0-0-1-package C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package
+24 verbose lock C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package C:\Users\js\AppData\Roaming\npm-cache\1ea39439-g-npm-cache-getpic-0-0-1-package.lock
+25 silly lockFile 1ea39439-g-npm-cache-getpic-0-0-1-package C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package
+26 silly lockFile 1ea39439-g-npm-cache-getpic-0-0-1-package C:\Users\js\AppData\Roaming\npm-cache\getpic\0.0.1\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'getpic',
+29 silly publish   version: '0.0.1',
+29 silly publish   description: 'get pic from url',
+29 silly publish   homepage: 'https://github.com/codetyphon/getpic',
+29 silly publish   repository: { type: 'git', url: 'https://github.com/codetyphon/getpic.git' },
+29 silly publish   author:
+29 silly publish    { name: 'codetyphon',
+29 silly publish      email: 'g@codetyphon.com',
+29 silly publish      url: 'http://www.codetyphon.com' },
+29 silly publish   keywords: [ 'getpic' ],
+29 silly publish   main: 'index.js',
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   license: 'MIT',
+29 silly publish   readme: '## getpic\r\n轻松获取一个url的大部分图片\r\n## 使用方法\r\n\r\n* 建立一个test.js测试文件，建立一个images文件夹，test.js文件内容如下：\r\n```\r\nvar getimg=require(\'./index.js\');\r\nvar url = process.argv[2];\r\nvar path = process.argv[3];\r\npath= path || \'images\';\r\ngetimg(url,path);\r\n```\r\n在命令行下执行test.js：带参数的，分别为 url 和 保存路径 （url必须以http://开头）\r\n\r\n```\r\n>node test.js http://www.codetyphon.com images\r\n```\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'f8dd1c959ee509f1d70d1aa0b7c915b1961dace9',
+29 silly publish   bugs: { url: 'https://github.com/codetyphon/getpic/issues' },
+29 silly publish   _id: 'getpic@0.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: 'ab2025b0d8e38a588ee1f00a7cf6a5aae2cb75e5',
+29 silly publish   _from: '.' }
+30 verbose request where is /getpic
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 65429f61d007a16b
+33 verbose url raw /getpic
+34 verbose url resolving [ 'https://registry.npmjs.org/', './getpic' ]
+35 verbose url resolved https://registry.npmjs.org/getpic
+36 verbose request where is https://registry.npmjs.org/getpic
+37 info trying registry request attempt 1 at 10:55:03
+38 http PUT https://registry.npmjs.org/getpic
+39 http 403 https://registry.npmjs.org/getpic
+40 verbose headers { date: 'Mon, 02 Feb 2015 02:55:11 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '2763',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-ty68-TYO',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1422845711.257424,VS0,VE134',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.1
+42 error old={"name":"getpic","version":"0.0.1","description":"getpic","homepage":"https://github.com/codetyphon/getpic","repository":{"type":"git","url":"https://github.com/codetyphon/getpic.git"},"author":{"name":"codetyphon","email":"g@codetyphon.com","url":"http://www.codetyphon.com"},"keywords":["getpic"],"main":"index.js","engines":{"node":">= 0.8.0"},"license":"MIT","gitHead":"f8dd1c959ee509f1d70d1aa0b7c915b1961dace9","bugs":{"url":"https://github.com/codetyphon/getpic/issues"},"_id":"getpic@0.0.1","scripts":{},"_shasum":"0db2e089705b173a861f1af708d8e31c76825ac2","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"codetyphon","email":"g@codetyphon.com"},"maintainers":[{"name":"codetyphon","email":"g@codetyphon.com"}],"dist":{"shasum":"0db2e089705b173a861f1af708d8e31c76825ac2","tarball":"http://registry.npmjs.org/getpic/-/getpic-0.0.1.tgz"}}
+42 error new={"name":"getpic","version":"0.0.1","description":"get pic from url","homepage":"https://github.com/codetyphon/getpic","repository":{"type":"git","url":"https://github.com/codetyphon/getpic.git"},"author":{"name":"codetyphon","email":"g@codetyphon.com","url":"http://www.codetyphon.com"},"keywords":["getpic"],"main":"index.js","engines":{"node":">= 0.8.0"},"license":"MIT","readme":"## getpic\u000d\u000a轻松获取一个url的大部分图片\u000d\u000a## 使用方法\u000d\u000a\u000d\u000a* 建立一个test.js测试文件，建立一个images文件夹，test.js文件内容如下：\u000d\u000a```\u000d\u000avar getimg=require('./index.js');\u000d\u000avar url = process.argv[2];\u000d\u000avar path = process.argv[3];\u000d\u000apath= path || 'images';\u000d\u000agetimg(url,path);\u000d\u000a```\u000d\u000a在命令行下执行test.js：带参数的，分别为 url 和 保存路径 （url必须以http://开头）\u000d\u000a\u000d\u000a```\u000d\u000a>node test.js http://www.codetyphon.com images\u000d\u000a```\u000d\u000a","readmeFilename":"README.md","gitHead":"f8dd1c959ee509f1d70d1aa0b7c915b1961dace9","bugs":{"url":"https://github.com/codetyphon/getpic/issues"},"_id":"getpic@0.0.1","scripts":{},"_shasum":"ab2025b0d8e38a588ee1f00a7cf6a5aae2cb75e5","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"codetyphon","email":"g@codetyphon.com"},"maintainers":[{"name":"codetyphon","email":"g@codetyphon.com"}],"dist":{"shasum":"ab2025b0d8e38a588ee1f00a7cf6a5aae2cb75e5","tarball":"http://registry.npmjs.org/getpic/-/getpic-0.0.1.tgz"}}: getpic
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:944:16
+42 error     at process._tickCallback (node.js:442:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd C:\works\getimg\getpic
+47 error node -v v0.10.35
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]

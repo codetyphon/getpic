@@ -1,0 +1,20 @@
+{
+  "name": "getpic",
+  "version": "0.0.2",
+  "description": "get pic from url",
+  "homepage": "https://github.com/codetyphon/getpic",
+  "repository": "https://github.com/codetyphon/getpic.git",
+  "author": {
+    "name": "codetyphon",
+    "email": "g@codetyphon.com",
+    "url": "http://www.codetyphon.com"
+  },
+  "keywords": [
+    "getpic"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT"
+}
